@@ -34,3 +34,7 @@ class Max {
 		console.log(`Max has been informed about: ${message.news}`);
 	}
 };
+const autoNews = new AutoNews()
+autoNews.register(new Jack())
+autoNews.register(new Max())
+autoNews.setNews('New Tesla price is 40000')
